@@ -1,0 +1,22 @@
+html{
+    background-image: url(images/landingBG.jpg);
+    background-size: 100%;
+}
+
+body{
+    
+    width: 80vw;
+    height: 80vh;
+    margin: 30px auto auto auto;
+    background-color: tan;
+    text-align: center;
+    border-radius: 5px;
+    border: rgb(180, 154, 120) 3px solid;
+    opacity: 98%;
+}
+
+#hiddenText{
+    font
+}
+
+
