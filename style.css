@@ -1,10 +1,10 @@
 html{
     background-image: url(images/landingBG.jpg);
     background-size: 100%;
+    transition: all 10s;
 }
 
 body{
-    
     width: 80vw;
     height: 80vh;
     margin: 30px auto auto auto;
@@ -15,8 +15,18 @@ body{
     opacity: 98%;
 }
 
-#hiddenText{
-    font
+#McGovern{
+    top:150px;
+    left: 705px;
+    position: absolute;
+    transition: all .2s;
+    cursor: not-allowed;
 }
+
+#Nixon{
+    cursor: pointer;
+}
+
+
 
 
