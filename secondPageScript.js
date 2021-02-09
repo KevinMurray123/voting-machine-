@@ -1,4 +1,7 @@
 let move = 0;
+let voidsound = new Audio("suffer.mp3");
+
+
 function onPageLoad(){
     text.style.opacity = "100%"
     setTimeout(buttonFade , 10000) 
@@ -8,7 +11,7 @@ function fadeOut(){
     text.style.opacity = "0%"
     Nixon.style.opacity = "0%"
     McGovern.style.opacity = "0%"
-    html.style.backgroundSize = "40%"
+    html.style.backgroundSize = "0px"
 }
 
 function buttonFade(){
@@ -20,6 +23,7 @@ function clickMcGovern(){
     text.innerHTML = "32.351058, -105.743153 give these coordinates to your loved ones and the authorities because by god theyre going to need them."
     setTimeout(() => {text.innerHTML = "I suggest you start running not that it'll matter in the end anyway."}, 10000)
     setTimeout(fadeOut, 15000)
+    voidsound.play();
 }
 
 function clickNixon(){

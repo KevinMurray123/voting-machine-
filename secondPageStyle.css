@@ -1,11 +1,11 @@
 html{
     background-color: black;
-    background-image: url(images/maroPNGPNGPNG.jpg);;
+    background-image: url(images/maroPNGPNGPNG.jpg);
     background-size: 20%;
     background-repeat: no-repeat;
     background-position: 50% 100px;
 
-    transition: all 10s;
+    transition: all 60s;
 }
 
 body{
